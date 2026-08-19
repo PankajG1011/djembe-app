@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: djembe-app
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/djembe_db
+
+jwt:
+  secret: "change-this-to-a-long-random-secret-key-in-production-min-256-bits"
+  expiration-ms: 86400000   # 24 hours
+  refresh-expiration-ms: 604800000  # 7 days
+
+logging:
+  level:
+    com.djembe.app: DEBUG

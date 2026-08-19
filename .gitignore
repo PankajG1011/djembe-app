@@ -1,0 +1,54 @@
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# =========================
+# Java / Maven
+# =========================
+target/
+*.class
+
+# =========================
+# Spring Boot / Environment
+# =========================
+.env
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Android Studio
+# =========================
+**/.gradle/
+**/build/
+**/local.properties
+
+# Android Studio / IntelliJ
+**/.idea/
+**/*.iml
+
+# =========================
+# Kotlin
+# =========================
+*.kotlin_module
+
+# =========================
+# Generated Android files
+# =========================
+captures/
+.externalNativeBuild/
+.cxx/
+
+# =========================
+# Keystore / signing files
+# =========================
+*.jks
+*.keystore
